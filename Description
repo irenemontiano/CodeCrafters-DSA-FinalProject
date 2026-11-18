@@ -1,0 +1,38 @@
+Data Structure Used: Hash Table
+
+PARKWISE uses a **Hash Table** as its primary data structure for storing and managing registered vehicle information. Each vehicle is stored using its plate number as a unique key, while the corresponding value contains the vehicle owner's name and vehicle type.
+
+The Hash Table allows the system to organize vehicle records efficiently and makes searching for a specific registered vehicle easier. By using the vehicle's plate number as a key, the system can locate the corresponding vehicle information through a hash function.
+
+ How Hash Table Works in PARKWISE
+
+1. Key: The vehicle's plate number serves as the unique identifier.
+2. Value:The owner's name and vehicle type are stored as the associated information.
+3. Insertion:New vehicle records are added to the Hash Table.
+4. Searching:The system uses the plate number as a key to retrieve vehicle information.
+5. Display: Registered vehicle records can be displayed for monitoring and management.
+
+Advantages of Using Hash Table
+
+- Provides efficient vehicle record searching.
+- Organizes vehicle information using key-value pairs.
+- Makes vehicle registration and retrieval more manageable.
+- Reduces the need to search through every record when accessing a vehicle by its plate number.
+
+ Time Complexity
+
+| Operation | Average Case | Worst Case |
+|---|---|---|
+| Insert | O(1) | O(n) |
+| Search | O(1) | O(n) |
+| Delete | O(1) | O(n) |
+| Display All | O(n) | O(n) |
+
+Recursion Implementation
+
+Aside from using a Hash Table, PARKWISE demonstrates recursion through three important concepts:
+1. Recursive Call – A method calls itself to continue an operation.
+2. Base Case – The stopping condition that prevents infinite recursion.
+3. Recursive Case – The part of the method that repeats the operation with an updated value.
+
+The combination of Hash Table and recursion demonstrates how different programming concepts can work together in a vehicle registration and parking management system.
